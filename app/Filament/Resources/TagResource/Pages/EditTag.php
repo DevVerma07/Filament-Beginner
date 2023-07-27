@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Filament\Resources\CustomerResource\Pages;
+namespace App\Filament\Resources\TagResource\Pages;
 
-use App\Filament\Resources\CustomerResource;
+use App\Filament\Resources\TagResource;
 use Filament\Pages\Actions;
 use Filament\Resources\Pages\EditRecord;
 
-class EditCustomer extends EditRecord
+class EditTag extends EditRecord
 {
-    protected static string $resource = CustomerResource::class;
+    protected static string $resource = TagResource::class;
 
     protected function getActions(): array
     {
